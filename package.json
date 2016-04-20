@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "raml-1-parser": "latest"
+  }
+}
