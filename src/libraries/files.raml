@@ -3,7 +3,7 @@
 usage: |
   Use to define some basic file-related constructs.
 uses:
-  file-type: !include libraries/file-type.raml
+  file-type: !include file-type.raml
 traits:
   drm:
     headers:
@@ -11,6 +11,6 @@ traits:
 resourceTypes:
   file:
     get:
-      is: drm
+      is: [ drm ]
     put:
-      is: drm
+      is: [ drm ]
